@@ -1,0 +1,15 @@
+name: svg_to_font
+version: 4.0.3
+homepage: https://github.com/ArcaneArts/icon_generator
+description: Convert all *.svg icons from dir to icon-font (.ttf) and generates flutter compatible dart class. Forked from https://github.com/rbcprolabs/icon_font_generator
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  recase: ^4.1.0
+  args: ^2.4.2
+  meta: ^1.9.1
+  path: ^1.8.3
+dev_dependencies:
+  lints: ^2.1.1
+executables:
+  svg_to_font: svg_to_font
